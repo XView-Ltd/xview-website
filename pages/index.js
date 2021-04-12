@@ -11,6 +11,9 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
+
+        <meta property="og:title" content="XView - Re-inventing business software" />
+        <meta property="og:image" content="https://www.xview.app/logo.svg" />
       </Head>
 
       <main className={styles.main}>
