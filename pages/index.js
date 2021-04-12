@@ -5,15 +5,30 @@ import Moment from 'moment'
 export default function Home() {
   return (
     <div className={styles.container}>
+      
       <Head>
-        <title>XView - Re-inventing business software</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
 
+       
+        <title>XView - Re-inventing business software</title>
+        <meta name="description" content="Bespoke business software that's working for you in days, not months." />
+
+        <meta property="og:url" content="https://www.xview.app" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content="XView - Re-inventing business software" />
+        <meta property="og:description" content="Bespoke business software that's working for you in days, not months." />
         <meta property="og:image" content="https://www.xview.app/openGraphImage.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="xview.app" />
+        <meta property="twitter:url" content="https://www.xview.app" />
+        <meta name="twitter:title" content="XView - Re-inventing business software" />
+        <meta name="twitter:description" content="Bespoke business software that's working for you in days, not months." />
+        <meta name="twitter:image" content="https://www.xview.app/openGraphImage.png" />
+
       </Head>
 
       <main className={styles.main}>
