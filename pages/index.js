@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
 
         <meta property="og:title" content="XView - Re-inventing business software" />
-        <meta property="og:image" content="https://www.xview.app/logo.svg" />
+        <meta property="og:image" content="https://www.xview.app/openGraphImage.png" />
       </Head>
 
       <main className={styles.main}>
