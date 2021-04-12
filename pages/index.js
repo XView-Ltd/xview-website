@@ -1,64 +1,55 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Moment from 'moment'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>XView - Re-inventing business software</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
       <main className={styles.main}>
+        <img className={styles.logo} src="/logo.svg" />
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Re-inventing Business Software
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+        <p className={styles.description}>We're busy delivering services to new clients at the moment (as well as working on this site).</p>
+        <p className={styles.description}>If you've been recommended XView, and want to get in touch, please send an email to <a href='mailto:hello@xview.app'>hello@xview.app</a>, we'd love to hear from you.</p>
+
+        {/* <div className={styles.grid}>
+          <a href="/new-page" className={styles.card}>
+            <h3>XView</h3>
+            <p>XView</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/new-page" className={styles.card}>
+            <h3>XView</h3>
+            <p>XView</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/new-page" className={styles.card}>
+            <h3>XView</h3>
+            <p>XView</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="/new-page" className={styles.card}>
+            <h3>XView</h3>
+            <p>XView</p>
           </a>
-        </div>
+            
+          </a>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        © Copyright {Moment().year()} XView Limited<br />XView Limited is a company registered in England and Wales (Company No. 12666640) Middle Knapp, The Knapp, Brimpsfield, GL4 8LD
       </footer>
     </div>
   )

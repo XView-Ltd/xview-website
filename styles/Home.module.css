@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
+  color:#444;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,25 +15,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 80%;
 }
 
 .footer {
-  width: 100%;
+  width: 80%;
   height: 100px;
   border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer img {
-  margin-left: 0.5rem;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding:2em;
+  text-align: center;
+  font-size: .8em;
 }
 
 .title a {
@@ -47,19 +39,23 @@
 }
 
 .title {
-  margin: 0;
+  margin: 30px;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .title,
-.description {
-  text-align: center;
-}
 
 .description {
+  text-align: center;
   line-height: 1.5;
   font-size: 1.5rem;
+
+ 
+}
+
+.description a {
+  font-weight: bold;
 }
 
 .code {
@@ -111,7 +107,7 @@
 }
 
 .logo {
-  height: 1em;
+  width:400px;
 }
 
 @media (max-width: 600px) {
