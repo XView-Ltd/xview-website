@@ -38,7 +38,7 @@ export default function Home() {
         </h1>
 
 
-        <p className={styles.description}>We're busy delivering services to new clients at the moment (as well as working on this site).</p>
+        <p className={styles.description}>We're busy delivering services to new clients at the moment.</p>
         <p className={styles.description}>If you've been recommended XView, and want to get in touch, please send an email to <a href='mailto:hello@xview.app'>hello@xview.app</a>, we'd love to hear from you.</p>
 
         {/* <div className={styles.grid}>
