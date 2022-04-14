@@ -67,7 +67,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        © Copyright {Moment().year()} XView Limited<br />XView Limited is a company registered in England and Wales (Company No. 12666640) Middle Knapp, The Knapp, Brimpsfield, GL4 8LD
+        © Copyright {Moment().year()} XView Limited<br />XView Limited is a company registered in England and Wales (Company No. 12666640) Wharf Cottage, Daneway, Sapperton, GL7 6LN
       </footer>
     </div>
   )
